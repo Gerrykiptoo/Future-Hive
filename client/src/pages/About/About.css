@@ -1,0 +1,68 @@
+.about-page {
+  padding: 100px 0 50px;
+  min-height: 60vh;
+}
+
+.page-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.page-header h1 {
+  color: #da9f52;
+  margin-bottom: 1rem;
+}
+
+.page-header p {
+  color: #14538a;
+  font-size: 1.2rem;
+}
+
+.about-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.about-story {
+  margin-bottom: 3rem;
+}
+
+.about-story h2 {
+  color: #4a6fa5;
+  margin-bottom: 1.5rem;
+}
+
+.about-story p {
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  color: #6c757d;
+}
+
+.mission-vision {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.mission, .vision {
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.mission h3, .vision h3 {
+  color: #4cb5ae;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 768px) {
+  .mission-vision {
+    grid-template-columns: 1fr;
+  }
+  
+  .about-page {
+    padding: 80px 0 30px;
+  }
+}
